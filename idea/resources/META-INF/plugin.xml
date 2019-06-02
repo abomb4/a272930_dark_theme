@@ -1,0 +1,33 @@
+<idea-plugin>
+  <id>com.abomb4</id>
+  <name>a272930_idea</name>
+  <version>1.0</version>
+  <vendor email="yangrlx@gmail.com" url="http://abomb4.github.io">Abomb4</vendor>
+
+  <description><![CDATA[
+      A theme uses color #1b1d1e as main dark color.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    2019-06-02: Init this theme, based on one dark theme
+  ]]></change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="cab8827e-37ef-4db8-9bb9-63ff028ebbec" path="/a272939_idea.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
