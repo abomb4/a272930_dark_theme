@@ -1,0 +1,10 @@
+.tabbrowser-tab {
+    text-shadow: none !important;
+}
+:root[lwtheme-image] .tab-icon-sound:-moz-lwtheme-brighttext[soundplaying], :root[lwtheme-image] .tab-icon-sound:-moz-lwtheme-brighttext[muted], :root[lwtheme-image] .tab-icon-sound:-moz-lwtheme-brighttext[activemedia-blocked] {
+    filter: none;
+}
+#navigator-toolbox::after {
+    border-bottom: 1px solid #abadae !important;
+}
+
